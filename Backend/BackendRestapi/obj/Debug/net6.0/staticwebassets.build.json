@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "y9T2XqBAgKjy7tjrPzNfa7U/uMxj37yWasdBCv2ZW0o=",
+  "Source": "BackendRestapi",
+  "BasePath": "_content/BackendRestapi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
