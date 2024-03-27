@@ -64,7 +64,7 @@ class AdminLogin extends Component {
   }
 
   goBack() {
-    window.history.back();
+    window.location.href='/'
   }
 
   render() {

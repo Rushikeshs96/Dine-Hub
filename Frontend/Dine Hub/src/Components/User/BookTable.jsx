@@ -72,7 +72,7 @@ class BookTable extends Component {
               <nav id="nav" className="navbar navbar-expand-lg navbar-dark">
                 <div className="container-fluid ">
                   <a className="navbar-brand fs-2 colorWhite" href="/UserHome">
-                    DELICIOUS
+                  DineHub
                   </a>
                   <button
                     className="navbar-toggler"

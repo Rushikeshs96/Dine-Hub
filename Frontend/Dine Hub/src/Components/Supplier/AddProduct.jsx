@@ -84,7 +84,7 @@ class AddProduct extends Component {
                     className="navbar-brand fs-2 colorWhite"
                     href="/SupplierHome"
                   >
-                    DELICIOUS
+                    DineHub
                   </a>
                   <button
                     className="navbar-toggler"

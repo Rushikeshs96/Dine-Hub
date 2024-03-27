@@ -15,6 +15,7 @@ import {
     InputGroupText,
     Row,
   } from "reactstrap";
+
 class AddOrder extends Component {
   constructor() {
     super();
@@ -32,10 +33,8 @@ class AddOrder extends Component {
     this.handleChange = this.handleChange.bind(this);
     this.onChangeName = this.onChangeName.bind(this);
     this.onProductChange = this.onProductChange.bind(this);
-    //this.addProduct = this.addProduct.bind(this);
     this.onSubmit = this.onSubmit.bind(this);
     this.generateOrder = this.generateOrder.bind(this);
-    // this.validation = this.validation.bind(this);
   }
   generateOrder() {
     debugger;
@@ -144,7 +143,7 @@ class AddOrder extends Component {
               <nav id="nav" className="navbar navbar-expand-lg navbar-dark">
                 <div className="container-fluid ">
                   <a className="navbar-brand fs-2 colorWhite" href="#">
-                    DELICIOUS
+                  DineHub
                   </a>
                   <button
                     className="navbar-toggler"

@@ -7,12 +7,12 @@ class AdminHome extends Component {
     return (
       <React.Fragment>
         <div className="container-fluid img">
-          <header id="header" className="fixed-top d-flex align-items-cente">
+          <header id="header" className="fixed-top d-flex align-items-center">
             <div className="container-fluid container-xl">
               <nav id="nav" className="navbar navbar-expand-lg navbar-dark">
                 <div className="container-fluid ">
                   <a className="navbar-brand fs-2 colorWhite" href="#">
-                    DELICIOUS
+                    Dine Hub
                   </a>
                   <button
                     className="navbar-toggler"
@@ -77,7 +77,6 @@ class AdminHome extends Component {
               </nav>
             </div>
           </header>
-          {/* Hero Section */}
           <div id="hero" className="d-flex align-items-center">
             <div
               className="container position-relative text-center text-lg-start"
@@ -87,7 +86,7 @@ class AdminHome extends Component {
               <div className="row">
                 <div className="col-lg-8">
                   <h1>
-                    Welcome to <span>Delicious</span>
+                    Welcome to <span>DineHub</span>
                   </h1>
                   <h2>Delivering great food for more than 18 years!</h2>
                 </div>

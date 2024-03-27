@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-//import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import "../../css/Style.css";
 const isEmail = (email) =>
   /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(email);
@@ -64,7 +63,7 @@ class SupplierLogin extends Component {
   }
 
   goBack() {
-    window.history.back();
+    window.location.href='/'
   }
 
   render() {
@@ -131,7 +130,7 @@ class SupplierLogin extends Component {
               <button
               style={{marginLeft:"150px"}}
                 type="button"
-                onClick={() => window.location.href="userreg"}
+                onClick={() => window.location.href="SupplierReg"}
                 className="btn btn-primary"
               >
                 Register

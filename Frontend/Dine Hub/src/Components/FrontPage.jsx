@@ -3,23 +3,6 @@ import { Link } from "react-router-dom";
 
 class FrontPage extends Component {
   render() {
-    const Slides = [
-      {
-        src: "/images/slide1.jpg",
-        content: {
-          h2: "Slide 1 Heading",
-          p: "Slide 1 Description"
-        }
-      },
-      {
-        src: "/images/slide2.jpg",
-        content: {
-          h2: "Slide 2 Heading",
-          p: "Slide 2 Description"
-        }
-      },
-      // Add more slides as needed
-    ];
 
     const activeSlide = 0;
     return (
@@ -52,12 +35,12 @@ class FrontPage extends Component {
                     id="dropdownMenuButton"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
-                    style={{ minWidth: "auto" }} // Set minimum width to prevent overflow
+                    style={{ minWidth: "auto" }} 
                   >
                     Login
                   </button>
                   <ul
-                    className="dropdown-menu dropdown-menu-end" // Align dropdown to end (right side)
+                    className="dropdown-menu dropdown-menu-end" 
                     aria-labelledby="dropdownMenuButton"
                   >
                     <li>
@@ -82,7 +65,9 @@ class FrontPage extends Component {
           </div>
         </nav>
 
-        <div className="container-fluid img-login"></div>
+        <div className="container-fluid img-login">
+          
+        </div>
       </div>
     );
   }

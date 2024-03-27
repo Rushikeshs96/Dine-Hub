@@ -12,6 +12,7 @@ namespace BackendRestapi.Controllers
     {
         private readonly RestDBContext _dbContext;
         CommonDal objCommon;
+
         public MenuController(RestDBContext _dbContext)
         {
             this._dbContext = _dbContext;

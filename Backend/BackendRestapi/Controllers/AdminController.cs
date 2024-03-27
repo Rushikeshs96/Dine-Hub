@@ -12,6 +12,7 @@ namespace BackendRestapi.Controllers
     {
         private readonly RestDBContext _dbContext;
         CommonDal objCommon;
+
         public AdminController(RestDBContext _dbContext)
         {
             this._dbContext = _dbContext;
