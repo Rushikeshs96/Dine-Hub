@@ -19,7 +19,6 @@ namespace BackendRestapi.Controllers
         }
 
 
-        // POST api/<ProductController>
         [Route("SaveOrder")]
         [HttpPost]
         public Response Post([FromBody] UserOrders value)

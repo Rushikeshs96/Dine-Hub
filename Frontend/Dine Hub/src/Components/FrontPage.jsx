@@ -7,9 +7,9 @@ class FrontPage extends Component {
     const activeSlide = 0;
     return (
       <div style={{ position: "fixed", width: "100%", zIndex: "999" }}>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-light bg-dark">
           <div className="container-fluid">
-            <Link className="navbar-brand" to="/">
+            <Link className="navbar-brand" to="/" style={{color:"orange"}}>
               DINE HUB
             </Link>
             <button
@@ -35,7 +35,8 @@ class FrontPage extends Component {
                     id="dropdownMenuButton"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
-                    style={{ minWidth: "auto" }} 
+                    style={{ minWidth: "auto"}} 
+
                   >
                     Login
                   </button>
@@ -66,7 +67,22 @@ class FrontPage extends Component {
         </nav>
 
         <div className="container-fluid img-login">
-          
+        <div id="hero1" className="d-flex align-items-center">
+            <div
+              className="container position-relative text-center text-lg-start"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <div className="row">
+                <div className="col-lg-8">
+                  <h1>
+                    Welcome to <span>DineHub</span>
+                  </h1>
+                  <h2>Delivering great food for more than 18 years!</h2>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     );

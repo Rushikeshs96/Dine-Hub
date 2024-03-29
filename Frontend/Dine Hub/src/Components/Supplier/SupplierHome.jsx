@@ -75,7 +75,7 @@ class SupplierHome extends Component {
               <div className="row">
                 <div className="col-lg-8">
                   <h1>
-                    Welcome to <span>Delicious</span>
+                    Welcome to <span>DineHub</span>
                   </h1>
                   <h2>Delivering great food for more than 18 years!</h2>
                 </div>

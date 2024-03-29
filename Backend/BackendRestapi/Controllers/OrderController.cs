@@ -18,7 +18,6 @@ namespace BackendRestapi.Controllers
             objCommon = new CommonDal(_dbContext);
         }
 
-        // POST api/<ProductController>
         [Route("SaveOrder")]
         [HttpPost]
         public Response Post([FromBody] OrderRequest value)
